@@ -1,0 +1,18 @@
+{
+  "name": "mdx-vue",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "eject": "mdx-vue-deck eject",
+    "start": "mdx-vue-deck dev deck.mdx -c theme.config.js",
+    "build": "mdx-vue-deck build deck.mdx -c theme.config.js"
+  },
+  "author": "taniyuu",
+  "license": "MIT",
+  "devDependencies": {
+    "@vue/cli-plugin-eslint": "^4.0.5",
+    "eslint": "^4.19.1",
+    "mdx-vue-deck": "0.1.8"
+  }
+}

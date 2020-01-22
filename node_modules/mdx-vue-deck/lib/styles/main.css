@@ -1,0 +1,13 @@
+@import "tailwindcss/base";
+
+/* Add custom base styles here... */
+
+@import "tailwindcss/components";
+
+/* purgecss start ignore */
+@import "./components/transitions.css";
+@import "./prism-atom-dark.css";
+/* purgecss end ignore */
+
+@import "tailwindcss/utilities";
+@import "./utilities/transitions.css";
