@@ -14,5 +14,8 @@
     "@vue/cli-plugin-eslint": "^4.0.5",
     "eslint": "^4.19.1",
     "mdx-vue-deck": "^0.1.11"
+  },
+  "dependencies": {
+    "raw-loader": "^4.0.0"
   }
 }

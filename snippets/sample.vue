@@ -1,0 +1,1 @@
+require("!raw-loader!./snippets/sample.py")

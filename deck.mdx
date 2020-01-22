@@ -1,8 +1,92 @@
-# This is the title of my deck
+import Appear from '@/components/Appear'
+import CodeSurfer from '@/components/CodeSurfer'
+
+Vue版mdx-deckがあったので使ってみた
+----
+taniyuu
 
 ---
 
-# About Me
+# 自己紹介
+- taniyuu twitterは[@zone_tanichan](https://twitter.com/zone_tanichan)
+    - 社会人3年目、26歳
+    - 2019.10〜Vue.jsを仕事で触り始めました。
+    - それまでは8割サーバサイド、書いてjQuery
+---
+# TL;DR
+
+---
+# Vue.jsとMarkdownで
+# スライドが作れるようになりました🎉
+
+---
+# サンプルの受け売り
+
+---
+
+# 箇条書きのアニメーション部品
+
+<Appear>
+  <li class="text-blue-700">One</li>
+  <li>Two</li>
+  <li>Three</li>
+</Appear>
+
+---
+
+<CodeSurfer
+  lang="javascript"
+  steps={[
+    { lines: [3], notes: 'Import the Apollo Client' },
+    { lines: [4], notes: 'Import Vue Apollo for using Apollo with vue' },
+    {
+      lines: [7, 8, 9, 10, 11],
+      notes: 'Create the provider and give it the URL'
+    },
+    { lines: [14], notes: 'Tell Vue to use Apollo' },
+    { lines: [15, 16, 17, 18, 19], notes: 'Mount Vue' }
+  ]}
+  code={`
+import Vue from "vue"
+import App from "./App"
+import ApolloClient from "apollo-boost"
+import VueApollo from "vue-apollo"
+\n
+const apolloProvider = new VueApollo({
+  defaultClient: new ApolloClient({
+    uri: "https://api.graphcms.com/simple/v1/awesomeTalksClone"
+  })
+})
+\n
+Vue.use(VueApollo)
+new Vue({
+  el: "#app",
+  provide: apolloProvider.provide(),
+  render: h => h(App)
+})
+  `}
+/>
+
+---
+
+# MDXとは
+
+---
+
+
+<h1><a href="https://mdxjs.com/" target="_blank">Markdown for the component era</a></h1>
+
+- MarkdownでJSXを使えるようにしたもの
+
+---
+# 🤔
+
+---
+
+
+# JSXとは
+---
+
 
 
 ---

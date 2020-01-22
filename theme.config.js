@@ -13,6 +13,7 @@ module.exports = {
         red: '#ff8383',
         blue: '#93ddfd',
         white: '#fff',
+        pink: '#FEEEED',
       },
     },
   },
@@ -29,9 +30,9 @@ module.exports = {
     h3: { extends: 'heading', fontSize: theme('fontSize.4xl') },
     link: {
       fontWeight: theme('fontWeight.bold'),
-      color: theme('colors.blue.600'),
+      color: theme('colors.pink.500'),
       '&:hover': {
-        color: theme('colors.blue.500'),
+        color: theme('colors.pink.400'),
         textDecoration: 'underline',
       },
     },
