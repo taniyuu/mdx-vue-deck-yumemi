@@ -15,7 +15,7 @@
     "eslint": "^4.19.1"
   },
   "dependencies": {
-    "raw-loader": "^4.0.0",
-    "mdx-vue-deck": "github:taniyuu/mdx-vue-deck#master"
+    "mdx-vue-deck": "github:taniyuu/mdx-vue-deck#master",
+    "raw-loader": "^4.0.0"
   }
 }
