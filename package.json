@@ -6,16 +6,16 @@
   "scripts": {
     "eject": "mdx-vue-deck eject",
     "start": "mdx-vue-deck dev deck.mdx -c theme.config.js",
-    "build": "mdx-vue-deck build deck.mdx -c theme.config.js"
+    "build": "mdx-vue-deck build deck.mdx -c theme.config.js --public-path '/mdx-vue-deck-yumemi' --output-dir docs"
   },
   "author": "taniyuu",
   "license": "MIT",
   "devDependencies": {
     "@vue/cli-plugin-eslint": "^4.0.5",
-    "eslint": "^4.19.1",
-    "mdx-vue-deck": "^0.1.11"
+    "eslint": "^4.19.1"
   },
   "dependencies": {
-    "raw-loader": "^4.0.0"
+    "raw-loader": "^4.0.0",
+    "mdx-vue-deck": "github:taniyuu/mdx-vue-deck#master"
   }
 }
